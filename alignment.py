@@ -1,7 +1,5 @@
-# srednyaya polosa 25 esli sivra budet 5
 import math
 width = 20
-C = '*'
 b = 1
 dl = int(input())
 # dl = 9# dlina bukvi
@@ -30,6 +28,3 @@ for i in range(dl):
     h1 = '*'*b1
     print(''.ljust(dl*4-1),h1.center(dl*2))
     b1 = b1-2
-
-#polnaya dline 7go chisla eto 41
-#polnaya dlina 5go chisla eto 29
